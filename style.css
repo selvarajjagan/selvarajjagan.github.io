@@ -1,8 +1,8 @@
 body{
 font-family:system-ui;
+margin:0;
 background:#0f172a;
 color:white;
-margin:0;
 }
 
 header{
@@ -11,10 +11,35 @@ padding:40px;
 background:#020617;
 }
 
+.tagline{
+color:#94a3b8;
+}
+
+nav{
+margin-top:20px;
+}
+
 nav a{
 margin:10px;
 color:#38bdf8;
 text-decoration:none;
+font-weight:500;
+}
+
+.social{
+margin-top:10px;
+}
+
+.social a{
+margin:0 10px;
+color:#38bdf8;
+text-decoration:none;
+}
+
+.hero{
+text-align:center;
+padding:60px 20px;
+background:#020617;
 }
 
 section{
@@ -38,15 +63,18 @@ border-radius:10px;
 .card img{
 width:100%;
 border-radius:8px;
+margin-bottom:10px;
 }
 
 .button{
 display:inline-block;
+margin-top:20px;
 padding:10px 20px;
 background:#38bdf8;
 color:black;
 border-radius:6px;
 text-decoration:none;
+font-weight:bold;
 }
 
 input, textarea{
@@ -56,6 +84,7 @@ margin-top:10px;
 background:#020617;
 border:1px solid #334155;
 color:white;
+border-radius:4px;
 }
 
 button{
@@ -63,5 +92,13 @@ margin-top:10px;
 padding:10px 20px;
 background:#38bdf8;
 border:none;
+border-radius:4px;
 cursor:pointer;
+}
+
+footer{
+text-align:center;
+padding:30px;
+background:#020617;
+color:#94a3b8;
 }
