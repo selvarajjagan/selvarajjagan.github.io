@@ -1,125 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Selva Raj | .NET WPF Developer</title>
 
-<style>
-body{
-font-family: Arial;
-margin:0;
-background:#0f172a;
-color:white;
-}
+<meta name="description" content="Senior Lead Engineer specializing in .NET, WPF desktop applications, 3D visualization with HelixToolkit and Flask APIs.">
 
-header{
-background:#020617;
-padding:40px;
-text-align:center;
-}
-
-h1{
-margin:0;
-font-size:40px;
-}
-
-.subtitle{
-color:#94a3b8;
-}
-
-nav{
-background:#1e293b;
-padding:10px;
-text-align:center;
-}
-
-nav a{
-color:white;
-margin:15px;
-text-decoration:none;
-font-weight:bold;
-}
-
-section{
-padding:50px;
-max-width:900px;
-margin:auto;
-}
-
-.card{
-background:#1e293b;
-padding:20px;
-margin-top:20px;
-border-radius:8px;
-}
-
-footer{
-text-align:center;
-padding:30px;
-background:#020617;
-color:#94a3b8;
-}
-</style>
+<link rel="stylesheet" href="style.css">
 
 </head>
+
 
 <body>
 
 <header>
+
 <h1>Selva Raj</h1>
-<p class="subtitle">
-Senior Lead Engineer | .NET WPF Specialist | 3D Visualization | Flask APIs
+
+<p class="tagline">
+Senior Lead Engineer • .NET • WPF • 3D Visualization • Flask
 </p>
-</header>
 
 <nav>
+
 <a href="#about">About</a>
 <a href="#skills">Skills</a>
 <a href="#projects">Projects</a>
+<a href="#github">GitHub</a>
+<a href="#blog">Blog</a>
 <a href="#contact">Contact</a>
+
 </nav>
+
+</header>
+
 
 <section id="about">
 
 <h2>About Me</h2>
 
 <p>
-Senior Lead Engineer with 13+ years experience building high-performance
-desktop applications using .NET and WPF. Experienced in 3D visualization
-systems using HelixToolkit and solution architecture for complex engineering
-applications.
+Senior Lead Engineer with 13+ years experience building high-performance desktop applications using .NET and WPF.
+Specialized in 3D visualization using HelixToolkit and engineering software systems.
 </p>
 
-<p>
-Previously worked with Qualcomm and Microchip delivering enterprise-grade
-software solutions.
-</p>
+<a class="button" href="resume.pdf" download>Download Resume</a>
 
 </section>
 
 
 <section id="skills">
 
-<h2>Technical Skills</h2>
+<h2>Skills</h2>
+
+<div class="grid">
 
 <div class="card">
-<b>Languages</b>
+<h3>Languages</h3>
 <p>C#, Python</p>
 </div>
 
 <div class="card">
-<b>Frameworks</b>
+<h3>Frameworks</h3>
 <p>.NET, WPF, Flask</p>
 </div>
 
 <div class="card">
-<b>3D Graphics</b>
-<p>HelixToolkit, 3D Visualization</p>
+<h3>3D Graphics</h3>
+<p>HelixToolkit</p>
 </div>
 
 <div class="card">
-<b>Tools</b>
-<p>Git, Azure DevOps</p>
+<h3>DevOps</h3>
+<p>Azure DevOps, Git</p>
+</div>
+
 </div>
 
 </section>
@@ -127,60 +86,96 @@ software solutions.
 
 <section id="projects">
 
-<h2>Projects</h2>
+<h2>Featured Projects</h2>
+
+<div class="grid">
 
 <div class="card">
-<h3>3D Visualization Engine</h3>
+
+<img src="images/project1.png">
+
+<h3>3D Visualization Tool</h3>
+
 <p>
-Desktop application for rendering engineering models using HelixToolkit and WPF.
+WPF desktop application rendering large engineering models using HelixToolkit.
 </p>
+
 </div>
 
+
 <div class="card">
+
+<img src="images/project2.png">
+
 <h3>Geometry Processing Tool</h3>
+
 <p>
-Tool for processing large OBJ files and performing geometry operations.
+Processes large OBJ files and performs geometry calculations.
 </p>
+
 </div>
 
-<div class="card">
-<h3>Flask API Service</h3>
-<p>
-Backend API built with Flask for processing geometry data and integrating
-with desktop applications.
-</p>
 </div>
 
 </section>
+
+
+<section id="github">
+
+<h2>GitHub Projects</h2>
+
+<div id="repo-container" class="grid"></div>
+
+</section>
+
+
+
+<section id="blog">
+
+<h2>Blog</h2>
+
+<div class="card">
+
+<h3>Building 3D Applications in WPF</h3>
+
+<p>
+Lessons learned while building high-performance engineering tools.
+</p>
+
+</div>
+
+</section>
+
 
 
 <section id="contact">
 
-<h2>Contact</h2>
+<h2>Freelance Contact</h2>
 
-<p>
-GitHub:
-<a href="https://github.com/selvarajjagan">
-github.com/selvarajjagan
-</a>
-</p>
+<form action="https://formspree.io/f/yourid" method="POST">
 
-<p>
-LinkedIn:
-<a href="#">
-Add your LinkedIn profile
-</a>
-</p>
+<input type="text" name="name" placeholder="Your Name" required>
+
+<input type="email" name="email" placeholder="Email" required>
+
+<textarea name="message" placeholder="Project Details"></textarea>
+
+<button type="submit">Send Message</button>
+
+</form>
 
 </section>
 
+
+
 <footer>
 
-<p>
-© 2026 Selva Raj
-</p>
+<p>© 2026 Selva Raj</p>
 
 </footer>
+
+
+<script src="script.js"></script>
 
 </body>
 </html>
